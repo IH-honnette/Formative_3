@@ -99,8 +99,7 @@ The MSE falls 61 -> 6.50 -> 2.50 -> 2.16 -> 2.10.
 - SciPy (`scipy.differentiate.derivative`) numerically differentiates the
   MSE cost function and confirms our analytic matrix gradients.
 - The update loop prints every intermediate step, nothing is over-abstracted.
-- Matplotlib figures: how m and b change over the iterations, and how the
-  error changes over the iterations.
+- Matplotlib figures: how m and b change over the iterations, and how the error changes over the iterations.
 
 ## Contributions
 
