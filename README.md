@@ -7,7 +7,7 @@ Group submission for the Machine Learning formative (ALU).
 ```
 ├── data/
 │   ├── GaltonFamilies.csv          # Part 1: Galton parents/children heights
-│   └── IMDB Dataset.csv            # Part 2: 50k IMDb reviews (not committed, see below)
+│   └── IMDB Dataset.csv            # Part 2: 50k IMDb reviews 
 ├── src/                            # Modular, DRY implementations
 │   ├── em_gmm.py                   # EM algorithm from scratch (Part 1)
 │   ├── bayes_sentiment.py          # Bayes' theorem, basic Python only (Part 2)
