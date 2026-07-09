@@ -84,7 +84,7 @@ us live and prints the exact posterior probability of each population.
 
 `docs/part3_manual_gradient_descent.md` shows, with no skipped arithmetic:
 the chain rule derivation of dJ/dm = (2/n) X^T e and dJ/db = (2/n) e, and
-four full iterations (one per group member) with every intermediate vector
+four full iterations with every intermediate vector
 (predictions, error, cost, both gradients, updates) at learning rate 0.01.
 The MSE falls 61 -> 6.50 -> 2.50 -> 2.16 -> 2.10.
 
@@ -97,12 +97,5 @@ The MSE falls 61 -> 6.50 -> 2.50 -> 2.16 -> 2.10.
 - The update loop prints every intermediate step, nothing is over-abstracted.
 - Matplotlib figures: how m and b change over the iterations, and how the error changes over the iterations.
 
-## Contributions
 
-| Member | Contribution |
-|--------|--------------|
-| Member 1 | Part 1 EM implementation + iteration 1 of Part 3 |
-| Member 2 | Part 2 Bayes implementation + iteration 2 of Part 3 |
-| Member 3 | Part 4 SciPy/plots + iteration 3 of Part 3 |
-| Member 4 | README/presentation + iteration 4 of Part 3 |
 
